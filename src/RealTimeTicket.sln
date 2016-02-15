@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1AC7C1D-A817-4F8E-8B3A-6B0BC9F2508F}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeTicket.WinFormClient", "RealTimeTicket.WinFormClient\RealTimeTicket.WinFormClient.csproj", "{02350876-5A33-4920-8C67-B2AC2A18D30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeTicket.WinFormServer", "RealTimeTicket.WinFormServer\RealTimeTicket.WinFormServer.csproj", "{7CD17220-86F2-44CF-B9C0-63BBB990BD95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02350876-5A33-4920-8C67-B2AC2A18D30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02350876-5A33-4920-8C67-B2AC2A18D30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02350876-5A33-4920-8C67-B2AC2A18D30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02350876-5A33-4920-8C67-B2AC2A18D30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD17220-86F2-44CF-B9C0-63BBB990BD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD17220-86F2-44CF-B9C0-63BBB990BD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD17220-86F2-44CF-B9C0-63BBB990BD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD17220-86F2-44CF-B9C0-63BBB990BD95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
